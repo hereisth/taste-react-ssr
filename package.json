@@ -1,0 +1,26 @@
+{
+  "name": "react-ssr-counter",
+  "version": "1.0.0",
+  "description": "Simple SSR React Counter with hydration",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "build": "vite build",
+    "build:client": "vite build"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "esbuild-register": "^3.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "vite": "^4.4.0",
+    "@vitejs/plugin-react": "^4.0.3"
+  },
+  "keywords": ["react", "ssr", "counter", "hydration"],
+  "author": "",
+  "license": "MIT"
+}
